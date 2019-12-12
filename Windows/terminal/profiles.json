@@ -12,6 +12,7 @@
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "colorScheme": "Seti",
+            "startingDirectory": "//wsl$/Ubuntu/home/gwon",
             "hidden": false,
             "name": "Ubuntu",
             "historySize" : 9001,
