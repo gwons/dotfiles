@@ -11,7 +11,7 @@
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "colorScheme": "Seti",
+            "colorScheme": "Nord",
             "startingDirectory": "//wsl$/Ubuntu/home/gwon",
             "hidden": false,
             "name": "Ubuntu",
@@ -39,26 +39,26 @@
     ],
     "schemes": [
         {
-            "name": "Seti",
-            "black": "#323232",
-            "red": "#c22832",
-            "green": "#8ec43d",
-            "yellow": "#e0c64f",
-            "blue": "#43a5d5",
-            "purple": "#8b57b5",
-            "cyan": "#8ec43d",
-            "white": "#eeeeee",
-            "brightBlack": "#323232",
-            "brightRed": "#c22832",
-            "brightGreen": "#8ec43d",
-            "brightYellow": "#e0c64f",
-            "brightBlue": "#43a5d5",
-            "brightPurple": "#8b57b5",
-            "brightCyan": "#8ec43d",
-            "brightWhite": "#ffffff",
-            "background": "#111213",
-            "foreground": "#cacecd"
-          }
+            "name": "Nord",
+            "foreground": "#D8DEE9",
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "red": "#BF616A",
+            "green": "#A3BE8C",
+            "yellow": "#EBCB8B",
+            "blue": "#81A1C1",
+            "purple": "#B48EAD",
+            "cyan": "#88C0D0",  
+            "white": "#E5E9F0",
+            "brightBlack": "#4C566A",
+            "brightRed": "#BF616A",
+            "brightGreen": "#A3BE8C",
+            "brightYellow": "#EBCB8B",
+            "brightBlue": "#81A1C1",
+            "brightPurple": "#B48EAD",
+            "brightCyan": "#8FBCBB",
+            "brightWhite": "#ECEFF4"
+        }
     ],
     "keybindings": [
         {

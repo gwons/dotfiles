@@ -1,27 +1,21 @@
-" Call vim-plug
 call plug#begin('~/.vim/plugged')
 
-" Input Using Plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'arcticicestudio/nord-vim', { 'on':  'NERDTreeToggle' }
+Plug 'arcticicestudio/nord-vim', { 'branch': 'develop', 'on':  'NERDTreeToggle' }
 Plug 'airblade/vim-gitgutter'
 Plug 'Yggdroot/indentLine'
-Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
-" End vim-plug
 
-" Airline Settings
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 
-color dracula
+color nord
 
-" Set TMUX
 if (empty($TMUX))
     if (has("nvim"))
         let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -31,17 +25,14 @@ if (empty($TMUX))
     endif
 endif
 
-" Set colorscheme
-let g:airline_theme='dracula'
+let g:airline_theme='nord'
 
-" NERDTree
 autocmd BufEnter * lcd %:p:h
 autocmd VimEnter * if !argc() | NERDTree | endif
 nmap <leader>ne :NERDTreeToggle<cr>
 let NERDTreeShowLineNumbers=1
 let g:NERDTreeWinPos = "right"
 
-" Others
 set number
 set backspace=2
 set autoindent
