@@ -11,7 +11,7 @@
         },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "colorScheme": "Nord",
+            "colorScheme": "Monokai",
             "startingDirectory": "//wsl$/Ubuntu/home/gwon",
             "hidden": false,
             "name": "Ubuntu",
@@ -39,26 +39,26 @@
     ],
     "schemes": [
         {
-            "name": "Nord",
-            "foreground": "#D8DEE9",
-            "background": "#2E3440",
-            "black": "#3B4252",
-            "red": "#BF616A",
-            "green": "#A3BE8C",
-            "yellow": "#EBCB8B",
-            "blue": "#81A1C1",
-            "purple": "#B48EAD",
-            "cyan": "#88C0D0",  
-            "white": "#E5E9F0",
-            "brightBlack": "#4C566A",
-            "brightRed": "#BF616A",
-            "brightGreen": "#A3BE8C",
-            "brightYellow": "#EBCB8B",
-            "brightBlue": "#81A1C1",
-            "brightPurple": "#B48EAD",
-            "brightCyan": "#8FBCBB",
-            "brightWhite": "#ECEFF4"
-        }
+            "name": "Monokai",
+            "black": "#1a1a1a",
+            "red": "#f4005f",
+            "green": "#98e024",
+            "yellow": "#fd971f",
+            "blue": "#9d65ff",
+            "purple": "#f4005f",
+            "cyan": "#58d1eb",
+            "white": "#c4c5b5",
+            "brightBlack": "#625e4c",
+            "brightRed": "#f4005f",
+            "brightGreen": "#98e024",
+            "brightYellow": "#e0d561",
+            "brightBlue": "#9d65ff",
+            "brightPurple": "#f4005f",
+            "brightCyan": "#58d1eb",
+            "brightWhite": "#f6f6ef",
+            "background": "#0c0c0c",
+            "foreground": "#d9d9d9"
+          }          
     ],
     "keybindings": [
         {
