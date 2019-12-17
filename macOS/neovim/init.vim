@@ -4,7 +4,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'arcticicestudio/nord-vim', { 'branch': 'develop', 'on':  'NERDTreeToggle' }
+Plug 'phanviet/vim-monokai-pro'
 Plug 'airblade/vim-gitgutter'
 Plug 'Yggdroot/indentLine'
 
@@ -14,7 +14,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 
-color nord
+color monokai_pro
 
 if (empty($TMUX))
     if (has("nvim"))
@@ -25,7 +25,7 @@ if (empty($TMUX))
     endif
 endif
 
-let g:airline_theme='nord'
+let g:airline_theme='base16_monokai'
 
 autocmd BufEnter * lcd %:p:h
 autocmd VimEnter * if !argc() | NERDTree | endif
