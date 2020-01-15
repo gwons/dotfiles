@@ -1,6 +1,6 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
     "profiles":
     [
         {
@@ -10,7 +10,7 @@
             "hidden": true
         },
         {
-            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
             "colorScheme": "Monokai",
             "startingDirectory": "//wsl$/Ubuntu/home/gwon",
             "hidden": false,
@@ -58,7 +58,7 @@
             "brightWhite": "#f6f6ef",
             "background": "#0c0c0c",
             "foreground": "#d9d9d9"
-          }          
+          }
     ],
     "keybindings": [
         {
