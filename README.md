@@ -10,16 +10,16 @@ This dotfiles only supports MacOS, Windows, and Ubuntu.
 
   1. Clone the repository:
 
-    ```console
+    ```sh
     git clone git@github.com:seonggwonyoon/dotfiles.git "~/.dotfiles"
     ```
 
   2. Execute setup.sh
 
-    ```console
+    ```sh
 	~/.dotfiles/setup.sh
 	```
 
   3. Enjoy your shell!
 
-	![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
+![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
