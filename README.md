@@ -10,15 +10,11 @@ This dotfiles only supports MacOS, Windows, and Ubuntu.
 
   1. Clone the repository:
 
-    ```sh
     git clone git@github.com:seonggwonyoon/dotfiles.git "~/.dotfiles"
-    ```
 
   2. Execute setup.sh
 
-    ```sh
 	~/.dotfiles/setup.sh
-	```
 
   3. Enjoy your shell!
 
