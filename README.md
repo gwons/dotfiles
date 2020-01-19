@@ -3,7 +3,8 @@
 
 ## Install
 ```
-Writing...
+git clone git@github.com:seonggwonyoon/dotfiles.git ~/.dotfiles
+~/.dotfiles/setup.sh
 ```
 
 ## Upgrade
