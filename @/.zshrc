@@ -4,10 +4,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Loading My Settings
-. ~/.dotfiles/zsh/funcs
+. ~/.dotfiles/@/.funcs
 
-. ~/.dotfiles/zsh/aliases
+. ~/.dotfiles/@/.aliases
 
-. ~/.dotfiles/zsh/paths
+. ~/.dotfiles/@/.plugins
 
-. ~/.dotfiles/zsh/plugins
+# IF USING MACOS DELETE UNDERLINE COMMNET
+# . ~/.dotfiles/.paths

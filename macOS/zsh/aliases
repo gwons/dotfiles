@@ -1,6 +1,0 @@
-alias git-branch-update="git remote update origin --prune"
-alias git-pull-all="find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -I {} git -C {} pull"
-alias z="j"
-alias tmux="tmux -2"
-alias vim="nvim"
-alias vi="nvim"
