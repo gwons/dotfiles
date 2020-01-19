@@ -1,21 +1,22 @@
-# dotfiles
+dotfiles
+=========
+
 /Users/@seonggwonyoon
 
-## Install
-```
-git clone git@github.com:seonggwonyoon/dotfiles.git ~/.dotfiles
-~/.dotfiles/setup.sh
-```
+Installation
+------------
 
-## Upgrade
-```
-Writing...
-```
+This dotfiles only supports MacOS, Windows, and Ubuntu.
 
-## Preview
+  1. Clone the repository:
+    ```console
+    git clone git@github.com:seonggwonyoon/dotfiles.git "~/.dotfiles"
+    ```
 
-### Windows
-![windows](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/windows.png)
+  2. Execute setup.sh
+    ```console
+	~/.dotfiles/setup.sh
+	```
 
-### MacOS
-![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
+  3. Enjoy your shell!
+	![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
