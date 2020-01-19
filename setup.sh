@@ -31,10 +31,10 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	sudo chsh -s /bin/zsh
 
 	# Link things
-	ln @/.zshrc ~/.zshrc
-	ln @/.zpreztorc ~/.zpreztorc
-	ln @/.tmux.conf ~/.tmux.conf
-	ln @/init.vim ~/.config/nvim/init.vim
+	ln ~/.dotfiles/@/.zshrc ~/.zshrc
+	ln ~/.dotfiles/@/.zpreztorc ~/.zpreztorc
+	ln ~/.dotfiles/@/.tmux.conf ~/.tmux.conf
+	ln ~/.dotfiles/@/init.vim ~/.config/nvim/init.vim
 
 else
 	# WIP
