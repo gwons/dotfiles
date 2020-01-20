@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # Make Workspace
@@ -35,6 +35,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 	ln ~/.dotfiles/@/.zpreztorc ~/.zpreztorc
 	ln ~/.dotfiles/@/.tmux.conf ~/.tmux.conf
 	ln ~/.dotfiles/@/init.vim ~/.config/nvim/init.vim
+	ln ~/.dotfiles/@/.gitconfig ~/.gitconfig
 
 else
 	# WIP
