@@ -4,8 +4,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Loading My Settings
-. ~/.dotfiles/@/.funcs
-
 . ~/.dotfiles/@/.aliases
 
 . ~/.dotfiles/@/.plugins

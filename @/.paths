@@ -1,17 +1,5 @@
 # MYSQL
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
-# Yarn
-export PATH="$PATH:`yarn global bin`"
-
-# Anaconda 3
-export PATH="$PATH:/usr/local/anaconda3/bin"
-
-# bin
+# Binarys
 export PATH="$PATH:/Users/keyakoto/Workspace/bin"
-
-# GO
-export GOPATH=$HOME/usr/local/bin/go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
