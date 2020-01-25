@@ -31,6 +31,7 @@ brew "lazydocker"
 brew "mysql", restart_service: true
 brew "htop"
 brew "socat"
+brew "gpg"
 
 # Applications
 ## Development
@@ -51,6 +52,7 @@ cask "dash"
 cask "typora"
 cask "notion"
 cask "slack"
+cask "authy"
 
 ## Utilities
 cask "appcleaner"
