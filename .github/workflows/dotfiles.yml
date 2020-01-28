@@ -1,0 +1,13 @@
+name: dotfiles
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Checkout Source Code
+      
+      - uses: seonggwonyoon/dotfiles@master
+      - name: Install dotfiles
+      - run: ./install
