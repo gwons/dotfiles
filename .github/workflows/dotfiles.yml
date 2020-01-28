@@ -5,10 +5,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-	  - name: Checkout Source Code
-		uses: actions/checkout@master
+      - name: Checkout Source Code
+        uses: actions/checkout@master
 
-	  - name: Install dotfiles
-	    working-directory: ./dotfiles
-		run: |
-		  ./install
+      - name: Install dotfiles
+        working-directory: ./dotfiles
+        run: |
+          ./install
