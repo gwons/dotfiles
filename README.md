@@ -19,7 +19,7 @@ This dotfiles only supports MacOS, Windows, and Ubuntu.
 
   2. Install dotfiles
 
-	~/.dotfiles/install
+    ~/.dotfiles/install
 
   3. Enjoy your shell!
 

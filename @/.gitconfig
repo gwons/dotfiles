@@ -1,25 +1,25 @@
 [user]
-	email = keyakoto@gmail.com
-	name = Seonggwon Yoon
-	signingkey = 47F9929BAB28723F
+    email = keyakoto@gmail.com
+    name = Seonggwon Yoon
+    signingkey = 47F9929BAB28723F
 [commit]
-	gpgsign = true
+    gpgsign = true
 [core]
-	autocrlf = false
-	safecrlf = true
-	preloadindex = true
-	editor = code --wait
+    autocrlf = false
+    safecrlf = true
+    preloadindex = true
+    editor = code --wait
 [gc]
-	auto = 256
+    auto = 256
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	ad = add
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    ad = add
 [color]
-	status = always
+    status = always
 [push]
-	default = upstream
+    default = upstream
 [pull]
-	rebase = true
+    rebase = true
