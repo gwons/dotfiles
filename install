@@ -4,21 +4,12 @@
 mkdir -p ~/Workspace/{bin,dev,git,tmp}
 mkdir -p ~/.config/nvim
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-
-    # Install brew
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-    # Install vim-plug
+function install-vimplug() {
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+}
 
-    # Install ZSH
-    brew install zsh
-
-    # Launch ZSH
-    zsh
-
+function install-prezto() {
     # Clone prezto
     git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
@@ -30,13 +21,35 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
     # Change default shell
     sudo chsh -s /bin/zsh
+}
 
-    # Link things
+function links() {
     ln ~/.dotfiles/@/.zshrc ~/.zshrc
     ln ~/.dotfiles/@/.zpreztorc ~/.zpreztorc
     ln ~/.dotfiles/@/.tmux.conf ~/.tmux.conf
     ln ~/.dotfiles/@/init.vim ~/.config/nvim/init.vim
     ln ~/.dotfiles/@/.gitconfig ~/.gitconfig
+}
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+
+    # Install brew
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+    # Install vim-plug
+    install-vimplug()
+
+    # Install ZSH
+    brew install zsh
+
+    # Launch ZSH
+    zsh
+
+    # Set zsh + prezto
+    install-prezto()
+
+    # Link things
+    links()
 
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
 
@@ -46,27 +59,13 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     sudo apt install -y zsh curl ssh git neovim python3-dev python3-pip python3-setuptools
 
     # Install vim-plug
-    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    install-vimplug()
 
-    # Clone prezto
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-
-    # Make Configuration files
-    setopt EXTENDED_GLOB
-    for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-        ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-    done
-
-    # Change default shell
-    sudo chsh -s $(which zsh)
+    # Set zsh + prezto
+    install-prezto()
 
     # Link things
-    ln ~/.dotfiles/@/.zshrc ~/.zshrc
-    ln ~/.dotfiles/@/.zpreztorc ~/.zpreztorc
-    ln ~/.dotfiles/@/.tmux.conf ~/.tmux.conf
-    ln ~/.dotfiles/@/init.vim ~/.config/nvim/init.vim
-    ln ~/.dotfiles/@/.gitconfig ~/.gitconfig
+    links()
 
 else
     # WIP
