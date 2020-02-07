@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # Make Workspace
-mkdir -p ~/Workspace/bin ~/Workspace/dev ~/Workspace/git ~/Workspace/tmp ~/.config/nvim
+mkdir -p ~/Workspace/{bin,dev,git,tmp}
+mkdir -p ~/.config/nvim
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
