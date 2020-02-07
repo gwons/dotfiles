@@ -8,9 +8,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
     # Install brew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    brew doctor
-    brew update
-    brew bundle
 
     # Install vim-plug
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
