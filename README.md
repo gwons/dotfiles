@@ -1,7 +1,4 @@
 [![GitHub Actions](https://github.com/seonggwonyoon/dotfiles/workflows/dotfiles/badge.svg)](https://github.com/seonggwonyoon/dotfiles/actions)
-[![IssuesClosed](https://img.shields.io/github/issues-closed/seonggwonyoon/dotfiles.svg?style=flat-square)](https://github.com/seonggwonyoon/dotfiles/issues)
-[![PullRequestsClosed](https://img.shields.io/github/issues-pr-closed/seonggwonyoon/dotfiles.svg?style=flat-square)](https://github.com/seonggwonyoon/dotfiles/pulls)
-[![HitCount](http://hits.dwyl.io/seonggwonyoon/dotfiles.svg)](http://hits.dwyl.io/seonggwonyoon/dotfiles)
 
 dotfiles
 =========
