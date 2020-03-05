@@ -1,6 +1,5 @@
 alias z="j"
 alias tmux="tmux -2"
-alias ls='ls --color=tty 2>/dev/null'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
