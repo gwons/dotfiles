@@ -23,10 +23,6 @@ if (empty($TMUX))
     endif
 endif
 
-let g:lightline = {
-      \ 'colorscheme': 'monokai',
-      \ }
-
 autocmd BufEnter * lcd %:p:h
 autocmd VimEnter * if !argc() | NERDTree | endif
 nmap <leader>ne :NERDTreeToggle<cr>
