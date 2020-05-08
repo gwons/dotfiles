@@ -11,7 +11,5 @@ alias l='ls -alF'
 alias ll='ls -l'
 alias vi='nvim'
 alias vim='nvim'
-alias docker-exit='docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs docker rm'
-alias docker-images='docker rmi -f $(docker images --filter "dangling=true" -q --no-trunc)'
 export GPG_TTY=$(tty)
 export PATH=~/.npm-global/bin:$PATH
