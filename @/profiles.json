@@ -25,7 +25,7 @@
             "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
             "name": "cmd",
             "commandline": "cmd.exe",
-            "hidden": true,
+            "hidden": false,
             "historySize" : 9001,
             "fontFace" : "Jetbrains Mono for Powerline",
             "fontSize" : 12
