@@ -19,19 +19,16 @@ brew "git"
 brew "git-lfs"
 brew "gist"
 brew "jq"
-brew "neofetch"
 brew "neovim"
-brew "thefuck"
 brew "tmux"
 brew "unzip"
 brew "vim"
 brew "wget"
-brew "lazygit"
-brew "lazydocker"
 brew "mysql", restart_service: true
 brew "htop"
 brew "socat"
 brew "gpg"
+brew "exa"
 
 # Applications
 ## Development
@@ -48,7 +45,6 @@ cask "google-chrome"
 
 ## Productivity
 cask "alfred"
-cask "dash"
 cask "typora"
 cask "notion"
 cask "slack"
