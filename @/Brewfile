@@ -28,20 +28,21 @@ brew "mysql", restart_service: true
 brew "htop"
 brew "socat"
 brew "gpg"
-brew "exa"
 
 # Applications
 ## Development
-cask "intellij-idea"
 cask "docker"
 cask "postman"
-cask "sequel-pro-nightly"
 cask "visual-studio-code"
+cask "sublime-text"
+cask "sequel-pro-nightly"
 cask "iterm2"
+cask "intellij-idea"
 cask "ngrok"
 
 ## Browsers
 cask "google-chrome"
+cask "firefox"
 
 ## Productivity
 cask "alfred"
@@ -49,12 +50,12 @@ cask "typora"
 cask "notion"
 cask "slack"
 cask "authy"
+cask "toggl"
 
 ## Utilities
-cask "appcleaner"
 cask "imageoptim"
 cask "tunnelblick"
-cask "keybase"
 cask "fantastical"
 cask "pdf-expert"
 cask "teamviewer"
+cask "transmission"
