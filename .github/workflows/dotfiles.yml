@@ -1,10 +1,10 @@
 name: dotfiles
-on: [push]
+on:
+  push:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Checkout Source Code
-        run: ./install
+      - run: git clone --depth 1 https://github.com/seonggwonyoon/dotfiles.git ~/.dotfiles
+      - run: ~/.dotfiles/install
