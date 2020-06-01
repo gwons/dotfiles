@@ -29,4 +29,4 @@ If you want a faster package installation experience, Use the below the line
 
     sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 
-![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
+![windows](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/windows.png)
