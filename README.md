@@ -25,6 +25,8 @@ Additional
 
 If you want a faster package installation experience, Use the below the line
 
-  1. sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
+  1. Change mirror to kakao
+
+    sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 
 ![macos](https://raw.githubusercontent.com/seonggwonyoon/dotfiles/master/assets/macos.png)
