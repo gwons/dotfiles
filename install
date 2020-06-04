@@ -4,6 +4,10 @@
 mkdir -p ~/Workspace/{bin,dev,git,tmp}
 mkdir -p ~/.config/nvim
 
+install-tpm () {
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+}
+
 install-vimplug() {
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -38,6 +42,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     # Install brew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+    # Install tpm
+    install-tpm
+
     # Install vim-plug
     install-vimplug
 
@@ -53,6 +60,9 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Change mirror (base Ubuntu 20.04)
     sudo apt update
     sudo apt install -y zsh curl ssh git neovim python3-dev python3-pip python3-setuptools
+
+    # Install tpm
+    install-tpm
 
     # Install vim-plug
     install-vimplug
