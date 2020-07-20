@@ -20,6 +20,9 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'syntax-highlighting' \
   'autosuggestions' \
+  'tmux' \
+  'ssh' \
 
-zstyle ':prezto:module:editor' key-bindings 'emacs'
-zstyle ':prezto:module:prompt' theme 'steeef'
+zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
