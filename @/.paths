@@ -1,5 +1,0 @@
-# MYSQL
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-
-# Binarys
-export PATH="$PATH:/Users/seonggwonyoon/Workspace/bin"

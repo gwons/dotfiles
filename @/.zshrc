@@ -7,6 +7,3 @@ fi
 . ~/.dotfiles/@/.aliases
 
 . ~/.dotfiles/@/.plugins
-
-# IF USING MACOS DELETE UNDERLINE COMMNET
-# . ~/.dotfiles/.paths
