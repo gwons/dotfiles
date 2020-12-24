@@ -1,0 +1,17 @@
+[user]
+    email = keyakoto@gmail.com
+    name = Seonggwon Yoon
+    signingkey = 47F9929BAB28723F
+[commit]
+    gpgsign = true
+[core]
+    autocrlf = false
+    safecrlf = true
+    preloadindex = true
+    editor = vim
+[color]
+    status = always
+[push]
+    default = upstream
+[pull]
+    rebase = true
