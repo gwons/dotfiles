@@ -1,3 +1,5 @@
+alias c="clear"
+alias k="kubectl"
 export GPG_TTY=$(tty)
 export ZSH="/Users/seonggwonyoon/.oh-my-zsh"
 ZSH_THEME="cypher"
