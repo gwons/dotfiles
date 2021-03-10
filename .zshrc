@@ -1,3 +1,6 @@
+export EDITOR=nvim
+alias vi=$EDITOR
+alias vim=$EDITOR
 alias c="clear"
 alias k="kubectl"
 alias u="brew upgrade; brew cu -acy"
