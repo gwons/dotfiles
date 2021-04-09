@@ -1,4 +1,5 @@
 # exports
+export PATH="/usr/local/sbin:$PATH"
 export EDITOR=nvim
 export GPG_TTY=$(tty)
 export ZSH="/Users/seonggwonyoon/.oh-my-zsh"
