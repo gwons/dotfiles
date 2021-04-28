@@ -11,6 +11,7 @@ alias c="clear"
 alias k="kubectl"
 alias u="brew upgrade; brew cu -acy"
 alias dn="npx rimraf ./**/node_modules"
+alias gossm="gossm start"
 
 # zsh settings
 ZSH_THEME="cypher"
