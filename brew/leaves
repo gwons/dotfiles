@@ -1,3 +1,4 @@
+adns
 argocd
 asciinema
 aws-iam-authenticator
@@ -6,6 +7,7 @@ diff-so-fancy
 ethereum
 fzf
 git
+gjbae1212/gossm/gossm
 gnupg
 go
 gradle
@@ -13,12 +15,15 @@ helm
 htop
 jq
 kubernetes-cli
+krew
 mysql
 neovim
+nnn
 openjdk@8
 pinentry-mac
 poetry
 pre-commit
+pwgen
 pyenv
 reattach-to-user-namespace
 tcl-tk
@@ -28,4 +33,5 @@ terraformer
 tmux
 tree
 unzip
+wakeonlan
 wget
