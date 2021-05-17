@@ -15,13 +15,14 @@ alias gossm="gossm start"
 # zsh settings
 ZSH_THEME="cypher"
 plugins=(
-  git
+  aws
+  brew
   docker
   docker-compose
+  git
   kubectl
-  brew
-  tmux
   ssh-agent
+  tmux
 )
 
 # oh-my-zsh
