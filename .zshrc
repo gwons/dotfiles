@@ -12,9 +12,13 @@ alias u="brew upgrade; brew cu -acy"
 alias dn="npx rimraf ./**/node_modules"
 alias gossm="gossm start"
 
+# asdf settings
+fpath=(${ASDF_DIR}/completions $fpath)
+
 # zsh settings
 ZSH_THEME="cypher"
 plugins=(
+  asdf
   aws
   brew
   docker
@@ -41,3 +45,7 @@ export PATH="${PATH}:${HOME}/.krew/bin"
 
 # etc
 export PATH="/usr/local/sbin:$PATH"
+
+# compinit
+autoload -Uz compinit
+compinit
