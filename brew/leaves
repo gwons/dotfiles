@@ -1,8 +1,11 @@
 adns
 argocd
 asciinema
+automake
 aws-iam-authenticator
 awscli
+coreutils
+curl
 diff-so-fancy
 ethereum
 fzf
@@ -32,6 +35,7 @@ terraform
 terraformer
 tmux
 tree
+unixodbc
 unzip
 wakeonlan
 wget
